@@ -5,7 +5,7 @@ user_password= "****************"
 
 url = "https://facebook.com"
 
-driver = webdriver.Chrome(executable_path="C:\\Users\\Administrator\\Documents\\chromedriver_win32 (1)\\chromedriver.exe")
+driver = webdriver.Chrome()
 
 driver.get(url)
 
